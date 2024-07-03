@@ -382,7 +382,7 @@ package-lock.json
 
 - If everything is OK, the package can be published:
 ```bash
- npm login --scope=@typescript-webpack-library-setup --registry=https://registry.npmjs.com
+npm login --scope=@typescript-webpack-library-setup --registry=https://registry.npmjs.com
 npm publish --access public
 ```
 
