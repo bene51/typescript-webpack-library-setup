@@ -1,0 +1,37 @@
+{
+  "name": "@typescript-webpack-library-setup/typescript-webpack-library-setup",
+  "version": "1.0.0",
+  "description": "A sample typescript library setup, bundled to be used locally within a browser and through Node.js",
+  "main": "dist/index.cjs",
+  "type": "module",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bene51/typescript-webpack-library-setup.git"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "library"
+  ],
+  "author": "Benjamin Schmid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bene51/typescript-webpack-library-setup/issues"
+  },
+  "homepage": "https://github.com/bene51/typescript-webpack-library-setup#readme",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.3",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "files": ["README.md", "package.json", "./dist/"]
+}
