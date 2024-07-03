@@ -380,4 +380,9 @@ package-lock.json
 
 - Now check with `npm pack --dry-run` which files would get published, and adjust `files` if necessary.
 
-- If everything is OK, the package can be published via `npm publish --access public`
+- If everything is OK, the package can be published:
+```bash
+ npm login --scope=@typescript-webpack-library-setup --registry=https://registry.npmjs.com
+npm publish --access public
+```
+
